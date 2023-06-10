@@ -1,0 +1,27 @@
+{
+  "name": "hydronode",
+  "version": "0.1.0",
+  "description": "Returns the current Toronto Hydro TOU rate.",
+  "main": "hydronode.js",
+  "scripts": {
+    "test": "npx mocha hydronode.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fozboz/torontohydrotou.git"
+  },
+  "author": "Andy Foster",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fozboz/torontohydrotou/issues"
+  },
+  "homepage": "https://github.com/fozboz/torontohydrotou#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.0"
+  }
+}
